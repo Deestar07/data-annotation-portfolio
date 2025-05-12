@@ -1,0 +1,1 @@
+A simple web-based tool using HTML, CSS, and JavaScript that allows users to annotate text data. For instance, users could highlight parts of a sentence and label them as entities (e.g., names, dates).
