@@ -6,7 +6,7 @@ document.getElementById('annotateBtn').addEventListener('click', function () {
     const annotation = prompt(`Add an annotation for: "${selectedText}"`);
     if (annotation) {
       // Send to PHP
-      fetch('save.php', {
+      fetch('annotation.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded'
